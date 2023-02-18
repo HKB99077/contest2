@@ -1,0 +1,160 @@
+sementic tag in html
+<header><header>
+<section></section>
+<footer></footer>
+
+<nav></nav> navbar is using for providing link in a section
+<div></div>  divison section is using for set a comment or divisoning the set of write part and it's also called bolock the comment
+<span></span> span tag is using for inline the comment 
+
+-> The better way to design or write a code is to follow sementic tag flow.
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <nav>
+        <a href="http://127.0.0.1:5500/product%20page.html">product page</a>
+        <a href="http://127.0.0.1:5500/customer.html">customer page</a>
+    </nav>
+   </header>
+   <section>
+     <h2> past event</h2>
+    <div>
+    <img src="https://blog.hootsuite.com/wp-content/uploads/2020/02/Image-copyright-768x768.png.webp" alt="some"
+    width="100"
+      heigth="100"
+    >
+   <p> feb</p>
+   <p> 7:00am</p>
+   <h1> first</h1>
+</div>
+         <div>
+    <img src="https://blog.hootsuite.com/wp-content/uploads/2020/02/Image-copyright-768x768.png.webp" alt="some"
+    width="100"
+      heigth="100"
+    >
+   <p> feb</p>
+   <p> 7:00am</p>
+   <h1> first</h1>
+</div>
+         <div>
+    <img src="https://blog.hootsuite.com/wp-content/uploads/2020/02/Image-copyright-768x768.png.webp" alt="some"
+    width="100"
+      heigth="100"
+    >
+   <p> feb</p>
+   <p> 7:00am</p>
+   <h1> first</h1>
+</div>
+     <button> learn more </button>
+</section>
+  <footer>
+    <div>
+      <p> address </p>
+        <p> email </p>
+       <p> mobile no</p>
+        </div>
+      </footer>
+</body>
+</html>
+
+
+output
+product page customer page
+past event
+some
+feb
+
+7:00am
+image
+first
+some
+feb
+
+7:00am
+image
+first
+some
+feb
+
+7:00am
+
+first
+learn more
+address
+
+email
+
+mobile no
+
+
+STUDENT LOGIN FORM CODE 
+// data-Enter student name,branch,email,gender(male,female,other),course(dsa,f1,f2),submit button. you can chose only 1 option from gender so we uses name="gender"  attribute in all option so if we chose male option so the female option will be disappere similarly for female and other.//
+  
+<h1> Student login form </h1>
+<form>
+  </div>
+<label for="name"> Enter name-</label>
+<input type="text" placeholder="enter name" id="name">
+</div>
+<div>
+<label for="branch"> Branch name-</label>
+<input type="text" placeholder="enter branch" id="branch">
+</div>
+<div>
+<label for="y"> Email-</label>
+<input type="email" id="y"> 
+</div>
+<div>
+<label for="date"> date-</label>
+<input type="date" id="date">
+</div>
+<div>
+<label for="male"> male-</label>
+<input type="radio" id="male" name="gender">
+<label for="female"> female-</label>
+<input type="radio" id="female" name="gender">
+<label for="other"> other-</label>
+<input type="radio" id="other" name="gender">
+</div>
+<div>
+<label for="f1"> f1</label>
+<input type="checkbox" id="f1" > 
+<label for="f2"> f2</label>
+<input type="checkbox" id="f2" > 
+<label for="DSA"> DSA</label>
+<input type="checkbox" id="DSA" > 
+</div>
+<div>
+<input type="submit " value="submit data">
+</div>
+<div>
+  <button> submit </buttton>
+</div>
+</form>
+
+
+
+output
+Student login form
+Enter name- 
+harsh
+Branch name- 
+EEE
+Email- 
+harsh@gamil.com
+date- 
+02-02-2023
+male-  female-  other- 
+f1  f2  DSA 
+submit data
+submit
